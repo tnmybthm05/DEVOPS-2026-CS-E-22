@@ -1,0 +1,15 @@
+{
+  "name": "news-recommendation-system",
+  "version": "1.0.0",
+  "description": "ML-Powered Personalised News Recommendation System",
+  "scripts": {
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:ml": "cd backend/ml && pip install -r requirements.txt",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:backend": "cd backend && npm run dev",
+    "start:ml": "cd backend/ml && uvicorn app:app --reload",
+    "start:all": "npm run start:frontend & npm run start:backend & npm run start:ml"
+  }
+}
