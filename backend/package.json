@@ -1,6 +1,7 @@
 {
   "name": "news-recommendation-server",
   "version": "1.0.0",
+  "type": "module",
   "description": "Backend for ML-Powered Personalised News Recommendation System",
   "main": "server.js",
   "scripts": {
