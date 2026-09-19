@@ -33,7 +33,6 @@ export const useNews = (initialCategory = 'All') => {
 
   useEffect(() => {
     fetchNews(true);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category]);
 
   const loadMore = () => {
